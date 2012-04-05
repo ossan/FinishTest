@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/buttonMiddle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:text="あくちびちーをもっと開く"
+    />
+    <Button
+        android:id="@+id/buttonLast"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:text="最後のあくちびちーを開く"
+    />
+    <Button
+        android:id="@+id/buttonOneFinish"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:text="一個だけ閉じる"
+    />
+    <Button
+        android:id="@+id/buttonExit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:text="全部閉じる"
+    />
+    
+</LinearLayout>
